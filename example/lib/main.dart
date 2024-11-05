@@ -94,6 +94,6 @@ class _MyAppState extends State<MyApp> {
 }
 
 void downloadCallback(
-    String id, DownloadTaskStatus status, int progress) async {
+    String id, int status, int progress) async {
   print('callback: ID = $id || status = $status || progress = $progress');
 }
